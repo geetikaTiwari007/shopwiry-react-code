@@ -1,0 +1,193 @@
+.homeSubWrapper {
+  padding-bottom: 50px;
+}
+.homeOfferProductSubWrapper {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: -50px;
+}
+.homeNewArrivalRowWrapper {
+  margin-bottom: 25px;
+}
+.homeSecTitleWrapper {
+  text-align: center;
+}
+.homeTitleText {
+  padding-top: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+.homeTitleBdr {
+  border: 1px solid #56c29e;
+  max-width: 60px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.homeAllProductsRowWrapper {
+  margin-bottom: 25px;
+}
+
+.sliderSubWrapper .carousel {
+  z-index: -1;
+}
+
+/*------------products------*/
+
+.productContentWrapper {
+  margin-bottom: 30px;
+}
+.productContentSubWrapper {
+  position: relative;
+  background-color: #f8f8f8;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+.productContentWrapper a {
+  text-decoration: none;
+  display: block;
+}
+/*.productContentWrapper:hover .productContentSubWrapper{
+  border: 1px solid #e5e5e5;
+}*/
+.productTitle a {
+  font-size: 18px;
+  color: #636363;
+  margin-top: 10px;
+}
+.productPrice {
+  font-weight: 600;
+  color: #636363;
+  font-size: 18px;
+}
+
+.productPriceWithIconsWrapper {
+  display: table;
+  width: 100%;
+}
+
+.productPriceWithIconsWrapper .productIconSec {
+  width: 40%;
+  text-align: right;
+}
+.productPriceWithIconsWrapper .productIconSec span {
+  display: inline-block;
+}
+.productPriceWithIconsWrapper .productIconSec span:nth-child(1) {
+  padding-right: 8px;
+}
+.productPriceWithIconsWrapper .productIconSec span > a > img {
+  width: 30px;
+}
+.productPriceWithIconsWrapper .productIconSec span:nth-child(2) > a > img {
+  width: 22px;
+}
+
+/* ---- Offer Products ---*/
+.homeOfferProductSubWrapper .productContentSubWrapper {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+.productOfferTagWrapper {
+  position: absolute;
+  right: 2px;
+  width: 84px;
+}
+.productOfferTagSubWrapper {
+  background: url("../assets/images/offer_tag.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 84px;
+}
+.productOfferPriceTextWrapper {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  margin: auto;
+}
+.productOfferPriceText {
+  margin: auto;
+  color: #fff;
+}
+.productPercentageText {
+  font-size: 18px;
+}
+.productOffText {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .productOfferTagWrapper {
+    width: 70px;
+  }
+  .productOfferPriceTextWrapper {
+    height: 70px;
+  }
+  .productPercentageText,
+  .productOffText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .productTitle a {
+    font-size: 16px;
+  }
+  .productPriceWithIconsWrapper .productIconSec span > a > img {
+    width: 20px;
+  }
+  .productPriceWithIconsWrapper .productIconSec span:nth-child(2) > a > img {
+    width: 18px;
+  }
+  .productPrice {
+    font-size: 14px;
+  }
+
+  .productOfferTagWrapper {
+    width: 50px;
+  }
+  .productOfferPriceTextWrapper {
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .productDetailYouMayAlsoLikeRowWrapper {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .productContentSubWrapper {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .productPriceWithIconsWrapper .productIconSec span > a > img {
+    width: 25px;
+  }
+  .productPrice {
+    font-size: 16px;
+  }
+  .homeOfferProductSubWrapper {
+    margin-top: 0px;
+  }
+  .homeSubWrapper {
+    padding-bottom: 0px;
+  }
+
+  .productOfferTagWrapper {
+    width: 70px;
+  }
+  .productOfferPriceTextWrapper {
+    height: 70px;
+  }
+  .productPercentageText,
+  .productOffText {
+    font-size: 16px;
+  }
+
+  .sliderSubWrapper .carousel {
+    z-index: 1;
+  }
+}

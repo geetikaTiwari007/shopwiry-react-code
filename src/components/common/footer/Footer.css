@@ -1,0 +1,100 @@
+.footerSubDiv{
+  background-color: #f3f3f3;
+  padding: 35px 35px 75px 35px;
+}
+
+.footLogoWrapper img{
+  max-width: 70px;
+}
+.footerSmallText{
+  margin-top: 10px;
+}
+.footerMenuWrapper{
+  margin-top: 5px;
+  margin-left: 25%;
+}
+.footerQuickLinkText{
+  color: #4e4e4e;
+  font-size: 18px;
+}
+.footerQuickLinkBdr{
+  border: 1px solid #4d4d4d;
+  width: 40px;
+  margin-top: 2px;
+}
+.footerMenuUlWrapper{
+  margin-top: 10px;
+}
+.footerMenuWrapper ul{
+  padding: 0;
+  margin: 0;
+}
+.footerMenuWrapper ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footerMenuWrapper ul li a{
+  color: #4e4e4e;
+  letter-spacing: 0.9px;
+}
+.footerContactInfo{
+  margin-top: 20px;
+}
+.footerContactInfo ul{
+  padding: 0;
+  margin: 0;
+}
+.footerContactInfo ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footerContactInfoContetnWrapper span{
+  display: inline-block;
+}
+.footerContactInfoContetnWrapper span:nth-child(1){
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.footerContactInfoContetnWrapper span:nth-child(1) i{
+  color: #4d4d4d;
+}
+.footerContactInfoContetnWrapper span:nth-child(2){
+  color: #6c6c6c;
+  letter-spacing: 0.9px;
+}
+
+
+.footerMainDiv .footerCopyText{
+  position: relative;
+  background: #ebebeb;
+  color: #6a6a6a;
+  letter-spacing: 0.1px;
+  text-align: center;
+  padding: 4px;
+}
+
+
+@media (max-width: 992px){
+  .footerMenuWrapper{
+      margin-left: 15%;
+  }
+}
+@media (max-width: 767px){
+  .fullWidth767{
+      width: 100%;
+  }
+  .footerSubDiv {
+      padding: 35px 35px 35px 35px;
+  }
+  .footerRightContentWrapper{
+      margin-top: 10px;
+  }
+  .footerMenuWrapper {
+      margin-left: 0%;
+  }
+}
+@media (max-width: 576px){
+  .footerCopyText{
+      font-size: 14px;
+  }
+}
