@@ -1,2 +1,0 @@
-(this.webpackJsonpshopwiry=this.webpackJsonpshopwiry||[]).push([[3],{103:function(t,e,n){"use strict";n.r(e);var a=n(9),r=n(10),c=n(18),u=n(17),i=n(0),s=n.n(i),o=function(t){Object(c.a)(n,t);var e=Object(u.a)(n);function n(){return Object(a.a)(this,n),e.apply(this,arguments)}return Object(r.a)(n,[{key:"render",value:function(){return s.a.createElement(s.a.Fragment,null,"FAQ")}}]),n}(s.a.Component);e.default=o}}]);
-//# sourceMappingURL=faq.ef8f2e0c.chunk.js.map
